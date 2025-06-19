@@ -42,8 +42,8 @@ class PedidosServiceTest {
         compartimientos.add(new Compartimiento("C2", new Posicion(2, 2, 2)));
         
         // Configuración de recorridos
-        Recorrido recorrido1 = new Recorrido();
-        Recorrido recorrido2 = new Recorrido();
+        Recorrido recorrido1 = new Recorrido(null);
+        Recorrido recorrido2 = new Recorrido(null);
         compartimientos.get(0).setRecorrido(recorrido1);
         compartimientos.get(1).setRecorrido(recorrido2);
         
