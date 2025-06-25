@@ -10,5 +10,7 @@ public class EsquivarObstaculoStrategy implements EstrategiaObstaculo {
         robot.avanzar(10);
         robot.girar(-90);
         robot.avanzar(10);
+        robot.girar(-90);
+        robot.avanzar(10);
     }
 } 
